@@ -1,0 +1,79 @@
+html {
+    margin: 100px;
+    font-family: 'HKGroteskRegular';
+}
+
+body {
+    background-color: #444444;
+}
+
+.image-list-small {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+    padding: 0;
+  }
+  
+  .image-list-small li {
+    display: inline-block;
+    margin: 0 12px 30px;
+  }
+  
+  h1,h2,h3,h4{
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-right:-0.1em;
+	font-weight: normal;
+	color: #fff;
+	font-family: "NowAltBold";
+    text-align: center;
+    margin: 50px;
+    font-size: 4.2vw;
+    width: auto;
+}
+  
+  .image-list-small li > a {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+  }
+  
+  li > a:hover {
+    opacity: 0.5;
+  }
+
+  .image-list-small .details {
+    margin-top: 13px;
+    width: 250px;
+  }
+  
+  
+  .image-list-small .details h3 {
+    display: block;
+    font-size: 14px;
+    margin: 0 0 3px 0;
+    white-space: pre;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .image-list-small .details h3 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .image-list-small .details .image-author {
+    display: block;
+    color: #717171;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
